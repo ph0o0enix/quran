@@ -28,16 +28,18 @@ from config import BANNED_USERS, lyrical
 @app.on_message(
     filters.command(
         [
-            "سوره", 
-            "#سوره", 
-            "سورة", 
-            "#سورة", 
-            "قران",
-            "#قران", 
-            "قرأن",
-            "#قرأن",
-            "قرآن",
-            "#قرآن",
+            "شغل", 
+            "#شغل", 
+            "تشغيل", 
+            "#تشغيل", 
+            "فيديو",
+            "#فيديو", 
+            "فيد",
+            "#فيد",
+            "/play",
+            "/cplay",
+            "/vplay",
+            "/cvplay",
         ], 
     "")
     & ~BANNED_USERS
