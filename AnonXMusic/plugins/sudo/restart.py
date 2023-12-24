@@ -118,7 +118,7 @@ async def restart_(_, message):
         try:
             await app.send_message(
                 chat_id=int(x),
-                text=f"{app.mention} جاري اعدات تشغيل البوت ...\n\nيمكنك استخدام البوت بعد دقيقه من الان.",
+                text=f"{app.mention}\nجاري اعدات تشغيل البوت ...\n\nيمكنك استخدام البوت بعد دقيقه من الان.",
             )
             await remove_active_chat(x)
             await remove_active_video_chat(x)
