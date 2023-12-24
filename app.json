@@ -1,7 +1,7 @@
 {
-    "name": "۞ 𝐐𝐔𝐑𝐀𝐍 ۞",
+    "name": "۞ 𝐀𝐋-𝐐𝐔𝐑𝐀𝐍 𝐀𝐋-𝐊𝐑𝐄𝐌 ۞",
     "description": "سورس قرآن الكريم .",
-    "logo": "https://telegra.ph/file/4e7893564db289af4d5f8.jpg",
+    "logo": "https://graph.org/file/e4966a1d47c748ba78e6a.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -53,10 +53,19 @@
         "required": false
       },
       "LOGGER_ID": {
-        "description": "ايدي الجروب وضيف قبلو -100",
+        "description": "ايدي الجروب وضيف قبلو ( -100 )",
         "value": "",
         "required": true
-      }
+      }, 
+      "SUPPORT_CHANNEL": {
+            "description": "لينك قناتك علي التلجرام ان وجد",
+            "required": false,
+            "value": "https://t.me/s1_i_i"
+      },
+      "SUPPORT_CHAT": {
+            "description": "لينك جروبك علي التلجرام ان وجد",
+            "required": false,
+            "value": "https://t.me/Al2SlM"
     },
     "buildpacks": [
           {
